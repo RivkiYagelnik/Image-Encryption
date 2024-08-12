@@ -9,9 +9,7 @@
       "BL/1.0.0": {
         "dependencies": {
           "Aoxe.SmtpClient": "2024.1.0",
-          "AutoMapper": "12.0.1",
-          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
-          "BingChat": "0.8.0",
+          "AutoMapper": "13.0.1",
           "DAL": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.7",
           "Microsoft.EntityFrameworkCore": "8.0.6",
@@ -21,10 +19,8 @@
           "Serilog": "4.0.0",
           "Serilog.Sinks.Console": "6.0.0",
           "Serilog.Sinks.File": "6.0.0",
-          "Serilog.Sinks.MSSqlServer": "6.6.1",
           "SixLabors.ImageSharp": "3.1.5",
-          "System.IdentityModel.Tokens.Jwt": "8.0.1",
-          "YmChat": "2.4.1"
+          "System.IdentityModel.Tokens.Jwt": "8.0.1"
         },
         "runtime": {
           "BL.dll": {}
@@ -69,26 +65,14 @@
           }
         }
       },
-      "AutoMapper/12.0.1": {
+      "AutoMapper/13.0.1": {
         "dependencies": {
-          "Microsoft.CSharp": "4.7.0"
-        },
-        "runtime": {
-          "lib/netstandard2.1/AutoMapper.dll": {
-            "assemblyVersion": "12.0.0.0",
-            "fileVersion": "12.0.1.0"
-          }
-        }
-      },
-      "AutoMapper.Extensions.Microsoft.DependencyInjection/12.0.1": {
-        "dependencies": {
-          "AutoMapper": "12.0.1",
           "Microsoft.Extensions.Options": "8.0.0"
         },
         "runtime": {
-          "lib/netstandard2.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {
-            "assemblyVersion": "12.0.0.0",
-            "fileVersion": "12.0.1.0"
+          "lib/net6.0/AutoMapper.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.0"
           }
         }
       },
@@ -126,18 +110,6 @@
           }
         }
       },
-      "BingChat/0.8.0": {
-        "dependencies": {
-          "Microsoft.AspNetCore.SignalR.Client": "7.0.5",
-          "System.Linq.Async": "6.0.1"
-        },
-        "runtime": {
-          "lib/net6.0/BingChat.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
       "Humanizer.Core/2.14.1": {
         "runtime": {
           "lib/net6.0/Humanizer.dll": {
@@ -155,68 +127,6 @@
             "assemblyVersion": "8.0.7.0",
             "fileVersion": "8.0.724.31402"
           }
-        }
-      },
-      "Microsoft.AspNetCore.Connections.Abstractions/7.0.5": {
-        "dependencies": {
-          "Microsoft.Extensions.Features": "7.0.5",
-          "System.IO.Pipelines": "7.0.0"
-        }
-      },
-      "Microsoft.AspNetCore.Http.Connections.Client/7.0.5": {
-        "dependencies": {
-          "Microsoft.AspNetCore.Http.Connections.Common": "7.0.5",
-          "Microsoft.Extensions.Logging.Abstractions": "8.0.0",
-          "Microsoft.Extensions.Options": "8.0.0"
-        },
-        "runtime": {
-          "lib/net7.0/Microsoft.AspNetCore.Http.Connections.Client.dll": {
-            "assemblyVersion": "7.0.5.0",
-            "fileVersion": "7.0.523.17410"
-          }
-        }
-      },
-      "Microsoft.AspNetCore.Http.Connections.Common/7.0.5": {
-        "dependencies": {
-          "Microsoft.AspNetCore.Connections.Abstractions": "7.0.5"
-        }
-      },
-      "Microsoft.AspNetCore.SignalR.Client/7.0.5": {
-        "dependencies": {
-          "Microsoft.AspNetCore.Http.Connections.Client": "7.0.5",
-          "Microsoft.AspNetCore.SignalR.Client.Core": "7.0.5"
-        },
-        "runtime": {
-          "lib/net7.0/Microsoft.AspNetCore.SignalR.Client.dll": {
-            "assemblyVersion": "7.0.5.0",
-            "fileVersion": "7.0.523.17410"
-          }
-        }
-      },
-      "Microsoft.AspNetCore.SignalR.Client.Core/7.0.5": {
-        "dependencies": {
-          "Microsoft.AspNetCore.SignalR.Common": "7.0.5",
-          "Microsoft.AspNetCore.SignalR.Protocols.Json": "7.0.5",
-          "Microsoft.Extensions.DependencyInjection": "8.0.0",
-          "Microsoft.Extensions.Logging": "8.0.0",
-          "System.Threading.Channels": "7.0.0"
-        },
-        "runtime": {
-          "lib/net7.0/Microsoft.AspNetCore.SignalR.Client.Core.dll": {
-            "assemblyVersion": "7.0.5.0",
-            "fileVersion": "7.0.523.17410"
-          }
-        }
-      },
-      "Microsoft.AspNetCore.SignalR.Common/7.0.5": {
-        "dependencies": {
-          "Microsoft.AspNetCore.Connections.Abstractions": "7.0.5",
-          "Microsoft.Extensions.Options": "8.0.0"
-        }
-      },
-      "Microsoft.AspNetCore.SignalR.Protocols.Json/7.0.5": {
-        "dependencies": {
-          "Microsoft.AspNetCore.SignalR.Common": "7.0.5"
         }
       },
       "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
@@ -397,8 +307,8 @@
           "Microsoft.Bcl.AsyncInterfaces": "6.0.0",
           "Microsoft.CodeAnalysis.Common": "4.5.0",
           "System.Composition": "6.0.0",
-          "System.IO.Pipelines": "7.0.0",
-          "System.Threading.Channels": "7.0.0"
+          "System.IO.Pipelines": "6.0.3",
+          "System.Threading.Channels": "6.0.0"
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.CodeAnalysis.Workspaces.dll": {
@@ -448,7 +358,6 @@
           }
         }
       },
-      "Microsoft.CSharp/4.7.0": {},
       "Microsoft.Data.SqlClient/5.1.5": {
         "dependencies": {
           "Azure.Identity": "1.10.3",
@@ -591,20 +500,9 @@
           "Microsoft.Extensions.Primitives": "8.0.0"
         }
       },
-      "Microsoft.Extensions.Configuration/6.0.1": {
-        "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
-          "Microsoft.Extensions.Primitives": "8.0.0"
-        }
-      },
       "Microsoft.Extensions.Configuration.Abstractions/8.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "8.0.0"
-        }
-      },
-      "Microsoft.Extensions.Configuration.Binder/6.0.0": {
-        "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0"
         }
       },
       "Microsoft.Extensions.DependencyInjection/8.0.0": {
@@ -625,7 +523,6 @@
           }
         }
       },
-      "Microsoft.Extensions.Features/7.0.5": {},
       "Microsoft.Extensions.Logging/8.0.0": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "8.0.0",
@@ -641,15 +538,6 @@
       "Microsoft.Extensions.Options/8.0.0": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
-          "Microsoft.Extensions.Primitives": "8.0.0"
-        }
-      },
-      "Microsoft.Extensions.Options.ConfigurationExtensions/6.0.0": {
-        "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
-          "Microsoft.Extensions.Configuration.Binder": "6.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
-          "Microsoft.Extensions.Options": "8.0.0",
           "Microsoft.Extensions.Primitives": "8.0.0"
         }
       },
@@ -808,33 +696,6 @@
           }
         }
       },
-      "Serilog.Sinks.MSSqlServer/6.6.1": {
-        "dependencies": {
-          "Microsoft.Data.SqlClient": "5.1.5",
-          "Microsoft.Extensions.Configuration": "6.0.1",
-          "Microsoft.Extensions.Options.ConfigurationExtensions": "6.0.0",
-          "Serilog": "4.0.0",
-          "Serilog.Sinks.PeriodicBatching": "3.1.0",
-          "System.Configuration.ConfigurationManager": "6.0.1"
-        },
-        "runtime": {
-          "lib/net6.0/Serilog.Sinks.MSSqlServer.dll": {
-            "assemblyVersion": "6.6.1.0",
-            "fileVersion": "6.6.1.0"
-          }
-        }
-      },
-      "Serilog.Sinks.PeriodicBatching/3.1.0": {
-        "dependencies": {
-          "Serilog": "4.0.0"
-        },
-        "runtime": {
-          "lib/netstandard2.1/Serilog.Sinks.PeriodicBatching.dll": {
-            "assemblyVersion": "3.0.0.0",
-            "fileVersion": "3.1.0.0"
-          }
-        }
-      },
       "SixLabors.ImageSharp/3.1.5": {
         "runtime": {
           "lib/net6.0/SixLabors.ImageSharp.dll": {
@@ -977,18 +838,7 @@
           "System.Security.Principal.Windows": "5.0.0"
         }
       },
-      "System.IO.Pipelines/7.0.0": {},
-      "System.Linq.Async/6.0.1": {
-        "dependencies": {
-          "Microsoft.Bcl.AsyncInterfaces": "6.0.0"
-        },
-        "runtime": {
-          "lib/net6.0/System.Linq.Async.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.1.35981"
-          }
-        }
-      },
+      "System.IO.Pipelines/6.0.3": {},
       "System.Memory/4.5.4": {},
       "System.Memory.Data/1.0.2": {
         "dependencies": {
@@ -1074,7 +924,7 @@
           "System.Text.Encodings.Web": "8.0.0"
         }
       },
-      "System.Threading.Channels/7.0.0": {},
+      "System.Threading.Channels/6.0.0": {},
       "System.Threading.Tasks.Extensions/4.5.4": {},
       "System.Windows.Extensions/6.0.0": {
         "dependencies": {
@@ -1095,20 +945,10 @@
           }
         }
       },
-      "YmChat/2.4.1": {
-        "runtime": {
-          "lib/netstandard2.0/YmChat.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
       "DAL/1.0.0": {
         "dependencies": {
           "Aoxe.SmtpClient": "2024.1.0",
-          "AutoMapper": "12.0.1",
-          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
-          "BingChat": "0.8.0",
+          "AutoMapper": "13.0.1",
           "MODELS": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.7",
           "Microsoft.EntityFrameworkCore": "8.0.6",
@@ -1117,9 +957,7 @@
           "Serilog": "4.0.0",
           "Serilog.Sinks.Console": "6.0.0",
           "Serilog.Sinks.File": "6.0.0",
-          "Serilog.Sinks.MSSqlServer": "6.6.1",
-          "System.IdentityModel.Tokens.Jwt": "8.0.1",
-          "YmChat": "2.4.1"
+          "System.IdentityModel.Tokens.Jwt": "8.0.1"
         },
         "runtime": {
           "DAL.dll": {}
@@ -1128,9 +966,7 @@
       "MODELS/1.0.0": {
         "dependencies": {
           "Aoxe.SmtpClient": "2024.1.0",
-          "AutoMapper": "12.0.1",
-          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
-          "BingChat": "0.8.0",
+          "AutoMapper": "13.0.1",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.7",
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.6",
@@ -1138,9 +974,7 @@
           "Serilog": "4.0.0",
           "Serilog.Sinks.Console": "6.0.0",
           "Serilog.Sinks.File": "6.0.0",
-          "Serilog.Sinks.MSSqlServer": "6.6.1",
-          "System.IdentityModel.Tokens.Jwt": "8.0.1",
-          "YmChat": "2.4.1"
+          "System.IdentityModel.Tokens.Jwt": "8.0.1"
         },
         "runtime": {
           "MODELS.dll": {}
@@ -1182,19 +1016,12 @@
       "path": "aoxe.smtpclient/2024.1.0",
       "hashPath": "aoxe.smtpclient.2024.1.0.nupkg.sha512"
     },
-    "AutoMapper/12.0.1": {
+    "AutoMapper/13.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-hvV62vl6Hp/WfQ24yzo3Co9+OPl8wH8hApwVtgWpiAynVJkUcs7xvehnSftawL8Pe8FrPffBRM3hwzLQqWDNjA==",
-      "path": "automapper/12.0.1",
-      "hashPath": "automapper.12.0.1.nupkg.sha512"
-    },
-    "AutoMapper.Extensions.Microsoft.DependencyInjection/12.0.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-+g/K+Vpe3gGMKGzjslMOdqNlkikScDjWfVvmWTayrDHaG/n2pPmFBMa+jKX1r/h6BDGFdkyRjAuhFE3ykW+r1g==",
-      "path": "automapper.extensions.microsoft.dependencyinjection/12.0.1",
-      "hashPath": "automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512"
+      "sha512": "sha512-/Fx1SbJ16qS7dU4i604Sle+U9VLX+WSNVJggk6MupKVkYvvBm4XqYaeFuf67diHefHKHs50uQIS2YEDFhPCakQ==",
+      "path": "automapper/13.0.1",
+      "hashPath": "automapper.13.0.1.nupkg.sha512"
     },
     "Azure.Core/1.35.0": {
       "type": "package",
@@ -1210,13 +1037,6 @@
       "path": "azure.identity/1.10.3",
       "hashPath": "azure.identity.1.10.3.nupkg.sha512"
     },
-    "BingChat/0.8.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-O0D3oXxMhVKUrmsUjnOv8vGEwZAq/LNjlSuT45Mha9nnHzO4bvU4/7vClcyy7/hLZfdawRNP/K0A5qtd9Ts3yw==",
-      "path": "bingchat/0.8.0",
-      "hashPath": "bingchat.0.8.0.nupkg.sha512"
-    },
     "Humanizer.Core/2.14.1": {
       "type": "package",
       "serviceable": true,
@@ -1230,55 +1050,6 @@
       "sha512": "sha512-HXcmJizLBx9mP2XtHZZgvi3GZCrGg98PMQ9AozrF1/RqSffp9CqCiTdrz7TaFLqOUph/S4hqx/IJD18Al+zE+w==",
       "path": "microsoft.aspnetcore.authentication.jwtbearer/8.0.7",
       "hashPath": "microsoft.aspnetcore.authentication.jwtbearer.8.0.7.nupkg.sha512"
-    },
-    "Microsoft.AspNetCore.Connections.Abstractions/7.0.5": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-JIGZMIzXknW3d5R/F4OqQpaMNyBNApmqH+bXXw6XFbidfr6ygWOqWSXy8ErO+AlQtK5siYdENQuJpImVbQuFXw==",
-      "path": "microsoft.aspnetcore.connections.abstractions/7.0.5",
-      "hashPath": "microsoft.aspnetcore.connections.abstractions.7.0.5.nupkg.sha512"
-    },
-    "Microsoft.AspNetCore.Http.Connections.Client/7.0.5": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-lHWyBRTbugsZauLfJfOeKjHJ6b/AMNzZYNFj2/HAXmCvq0PADOlQcDVRPAUUr54wp+ZJ3y6nSR2Jwlv/figEJQ==",
-      "path": "microsoft.aspnetcore.http.connections.client/7.0.5",
-      "hashPath": "microsoft.aspnetcore.http.connections.client.7.0.5.nupkg.sha512"
-    },
-    "Microsoft.AspNetCore.Http.Connections.Common/7.0.5": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-ANh3reuf2e3Gm0sHdloMVYypcJ9Dkh64uxVAm9ktz/JOY7VBkSGW75TjBVoFv7Gh4IGXbjagdqI2mp4m8q6HQw==",
-      "path": "microsoft.aspnetcore.http.connections.common/7.0.5",
-      "hashPath": "microsoft.aspnetcore.http.connections.common.7.0.5.nupkg.sha512"
-    },
-    "Microsoft.AspNetCore.SignalR.Client/7.0.5": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-hN/gJpmDRCK3IDxhT86ElkCdwWXjBB3WtSY8wTLFni0Dh9FhGw7vqZPMRoJMpzPz81AlN+4i7WRqcFiawXmIOg==",
-      "path": "microsoft.aspnetcore.signalr.client/7.0.5",
-      "hashPath": "microsoft.aspnetcore.signalr.client.7.0.5.nupkg.sha512"
-    },
-    "Microsoft.AspNetCore.SignalR.Client.Core/7.0.5": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-9CGeYbU6KeoaEkRat/dGI7RWrDJvzO+6bhrjN6uWzMU8zoH5ojulXu56a9+xyiVs8wadlxjtn/DznfVMmOUqaA==",
-      "path": "microsoft.aspnetcore.signalr.client.core/7.0.5",
-      "hashPath": "microsoft.aspnetcore.signalr.client.core.7.0.5.nupkg.sha512"
-    },
-    "Microsoft.AspNetCore.SignalR.Common/7.0.5": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Y3UsmtBKdYYwo/cQJyqlqqxmLPJIhIT4IV4ej7G1HNf5zE3v43spIlf3ybUUHtrxP1hUyu4L++sCII9gDMbziA==",
-      "path": "microsoft.aspnetcore.signalr.common/7.0.5",
-      "hashPath": "microsoft.aspnetcore.signalr.common.7.0.5.nupkg.sha512"
-    },
-    "Microsoft.AspNetCore.SignalR.Protocols.Json/7.0.5": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-BdxhNLe95Dp4F9e/h9N+TEhU1PBRCPxPagVkYgP2eZihcMnA+/D4lln9ALfofS1sAkkKRrXUKMhZlKT7hqb34w==",
-      "path": "microsoft.aspnetcore.signalr.protocols.json/7.0.5",
-      "hashPath": "microsoft.aspnetcore.signalr.protocols.json.7.0.5.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
       "type": "package",
@@ -1321,13 +1092,6 @@
       "sha512": "sha512-l4dDRmGELXG72XZaonnOeORyD/T5RpEu5LGHOUIhnv+MmUWDY/m1kWXGwtcgQ5CJ5ynkFiRnIYzTKXYjUs7rbw==",
       "path": "microsoft.codeanalysis.workspaces.common/4.5.0",
       "hashPath": "microsoft.codeanalysis.workspaces.common.4.5.0.nupkg.sha512"
-    },
-    "Microsoft.CSharp/4.7.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
-      "path": "microsoft.csharp/4.7.0",
-      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
     },
     "Microsoft.Data.SqlClient/5.1.5": {
       "type": "package",
@@ -1406,26 +1170,12 @@
       "path": "microsoft.extensions.caching.memory/8.0.0",
       "hashPath": "microsoft.extensions.caching.memory.8.0.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.Configuration/6.0.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-BUyFU9t+HzlSE7ri4B+AQN2BgTgHv/uM82s5ZkgU1BApyzWzIl48nDsG5wR1t0pniNuuyTBzG3qCW8152/NtSw==",
-      "path": "microsoft.extensions.configuration/6.0.1",
-      "hashPath": "microsoft.extensions.configuration.6.0.1.nupkg.sha512"
-    },
     "Microsoft.Extensions.Configuration.Abstractions/8.0.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-3lE/iLSutpgX1CC0NOW70FJoGARRHbyKmG7dc0klnUZ9Dd9hS6N/POPWhKhMLCEuNN5nXEY5agmlFtH562vqhQ==",
       "path": "microsoft.extensions.configuration.abstractions/8.0.0",
       "hashPath": "microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512"
-    },
-    "Microsoft.Extensions.Configuration.Binder/6.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-b3ErKzND8LIC7o08QAVlKfaEIYEvLJbtmVbFZVBRXeu9YkKfSSzLZfR1SUfQPBIy9mKLhEtJgGYImkcMNaKE0A==",
-      "path": "microsoft.extensions.configuration.binder/6.0.0",
-      "hashPath": "microsoft.extensions.configuration.binder.6.0.0.nupkg.sha512"
     },
     "Microsoft.Extensions.DependencyInjection/8.0.0": {
       "type": "package",
@@ -1448,13 +1198,6 @@
       "path": "microsoft.extensions.dependencymodel/8.0.0",
       "hashPath": "microsoft.extensions.dependencymodel.8.0.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.Features/7.0.5": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-et2VTINKahQfHbvM8Mnu7pgPoW1XIgCsqAO71aQGb/7OLjsOoc4tqnOBXX0mIZLEhExRm82uv0moE+Zg56GaBQ==",
-      "path": "microsoft.extensions.features/7.0.5",
-      "hashPath": "microsoft.extensions.features.7.0.5.nupkg.sha512"
-    },
     "Microsoft.Extensions.Logging/8.0.0": {
       "type": "package",
       "serviceable": true,
@@ -1475,13 +1218,6 @@
       "sha512": "sha512-JOVOfqpnqlVLUzINQ2fox8evY2SKLYJ3BV8QDe/Jyp21u1T7r45x/R/5QdteURMR5r01GxeJSBBUOCOyaNXA3g==",
       "path": "microsoft.extensions.options/8.0.0",
       "hashPath": "microsoft.extensions.options.8.0.0.nupkg.sha512"
-    },
-    "Microsoft.Extensions.Options.ConfigurationExtensions/6.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-bXWINbTn0vC0FYc9GaQTISbxhQLAMrvtbuvD9N6JelEaIS/Pr62wUCinrq5bf1WRBGczt1v4wDhxFtVFNcMdUQ==",
-      "path": "microsoft.extensions.options.configurationextensions/6.0.0",
-      "hashPath": "microsoft.extensions.options.configurationextensions.6.0.0.nupkg.sha512"
     },
     "Microsoft.Extensions.Primitives/8.0.0": {
       "type": "package",
@@ -1588,20 +1324,6 @@
       "path": "serilog.sinks.file/6.0.0",
       "hashPath": "serilog.sinks.file.6.0.0.nupkg.sha512"
     },
-    "Serilog.Sinks.MSSqlServer/6.6.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-d05WMjMq6QExa9SI5BEKTEu+RZwreVTslNtP8lCsVONxtbITDx+Jpi/XVJL5/R+QlG0XDJXg0Ut4MyA/HzQ19g==",
-      "path": "serilog.sinks.mssqlserver/6.6.1",
-      "hashPath": "serilog.sinks.mssqlserver.6.6.1.nupkg.sha512"
-    },
-    "Serilog.Sinks.PeriodicBatching/3.1.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-NDWR7m3PalVlGEq3rzoktrXikjFMLmpwF0HI4sowo8YDdU+gqPlTHlDQiOGxHfB0sTfjPA9JjA7ctKG9zqjGkw==",
-      "path": "serilog.sinks.periodicbatching/3.1.0",
-      "hashPath": "serilog.sinks.periodicbatching.3.1.0.nupkg.sha512"
-    },
     "SixLabors.ImageSharp/3.1.5": {
       "type": "package",
       "serviceable": true,
@@ -1707,19 +1429,12 @@
       "path": "system.io.filesystem.accesscontrol/5.0.0",
       "hashPath": "system.io.filesystem.accesscontrol.5.0.0.nupkg.sha512"
     },
-    "System.IO.Pipelines/7.0.0": {
+    "System.IO.Pipelines/6.0.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-jRn6JYnNPW6xgQazROBLSfpdoczRw694vO5kKvMcNnpXuolEixUyw6IBuBs2Y2mlSX/LdLvyyWmfXhaI3ND1Yg==",
-      "path": "system.io.pipelines/7.0.0",
-      "hashPath": "system.io.pipelines.7.0.0.nupkg.sha512"
-    },
-    "System.Linq.Async/6.0.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-0YhHcaroWpQ9UCot3Pizah7ryAzQhNvobLMSxeDIGmnXfkQn8u5owvpOH0K6EVB+z9L7u6Cc4W17Br/+jyttEQ==",
-      "path": "system.linq.async/6.0.1",
-      "hashPath": "system.linq.async.6.0.1.nupkg.sha512"
+      "sha512": "sha512-ryTgF+iFkpGZY1vRQhfCzX0xTdlV3pyaTTqRu2ETbEv+HlV7O6y7hyQURnghNIXvctl5DuZ//Dpks6HdL/Txgw==",
+      "path": "system.io.pipelines/6.0.3",
+      "hashPath": "system.io.pipelines.6.0.3.nupkg.sha512"
     },
     "System.Memory/4.5.4": {
       "type": "package",
@@ -1819,12 +1534,12 @@
       "path": "system.text.json/8.0.0",
       "hashPath": "system.text.json.8.0.0.nupkg.sha512"
     },
-    "System.Threading.Channels/7.0.0": {
+    "System.Threading.Channels/6.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-qmeeYNROMsONF6ndEZcIQ+VxR4Q/TX/7uIVLJqtwIWL7dDWeh0l1UIqgo4wYyjG//5lUNhwkLDSFl+pAWO6oiA==",
-      "path": "system.threading.channels/7.0.0",
-      "hashPath": "system.threading.channels.7.0.0.nupkg.sha512"
+      "sha512": "sha512-TY8/9+tI0mNaUMgntOxxaq2ndTkdXqLSxvPmas7XEqOlv9lQtB7wLjYGd756lOaO7Dvb5r/WXhluM+0Xe87v5Q==",
+      "path": "system.threading.channels/6.0.0",
+      "hashPath": "system.threading.channels.6.0.0.nupkg.sha512"
     },
     "System.Threading.Tasks.Extensions/4.5.4": {
       "type": "package",
@@ -1839,13 +1554,6 @@
       "sha512": "sha512-IXoJOXIqc39AIe+CIR7koBtRGMiCt/LPM3lI+PELtDIy9XdyeSrwXFdWV9dzJ2Awl0paLWUaknLxFQ5HpHZUog==",
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
-    },
-    "YmChat/2.4.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-sFsaKYqFo0itjIJcT576vXDmwdDWEhgxB5fDTUNof3S3H46XIwSY3DNVsANzBx0YB6sFbYx1G3+xBEXMl8ltWQ==",
-      "path": "ymchat/2.4.1",
-      "hashPath": "ymchat.2.4.1.nupkg.sha512"
     },
     "DAL/1.0.0": {
       "type": "project",

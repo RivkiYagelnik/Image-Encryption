@@ -1,1 +1,61 @@
 .vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Roslyn
+*.ide
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Entity Framework
+*.jfm
+
+# SQL Server files
+*.mdf
+*.ldf
+*.ndf
+
+# DotNet
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# StyleCop
+StyleCopReport.xml
+
+# NCrunch
+NCrunch*
+.crunch.local.xml
+ncrunchsolution.xml
+
+# User-specific files
+*.rsuser
+*.sln.docstates
+
+# Auto-generated files
+Generated\
+
+# Others
+*.log
+*.tlog
+*.cache
+*.pdb
+*.opendb
+*.publish.xml

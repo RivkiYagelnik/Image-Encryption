@@ -10,14 +10,9 @@ D:\Image encryption\Image encryption\bin\Debug\net8.0\Aoxe.Extensions.dll
 D:\Image encryption\Image encryption\bin\Debug\net8.0\Aoxe.SequentialGuid.dll
 D:\Image encryption\Image encryption\bin\Debug\net8.0\Aoxe.SmtpClient.dll
 D:\Image encryption\Image encryption\bin\Debug\net8.0\AutoMapper.dll
-D:\Image encryption\Image encryption\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 D:\Image encryption\Image encryption\bin\Debug\net8.0\Azure.Core.dll
 D:\Image encryption\Image encryption\bin\Debug\net8.0\Azure.Identity.dll
-D:\Image encryption\Image encryption\bin\Debug\net8.0\BingChat.dll
 D:\Image encryption\Image encryption\bin\Debug\net8.0\Humanizer.dll
-D:\Image encryption\Image encryption\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Connections.Client.dll
-D:\Image encryption\Image encryption\bin\Debug\net8.0\Microsoft.AspNetCore.SignalR.Client.dll
-D:\Image encryption\Image encryption\bin\Debug\net8.0\Microsoft.AspNetCore.SignalR.Client.Core.dll
 D:\Image encryption\Image encryption\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 D:\Image encryption\Image encryption\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
 D:\Image encryption\Image encryption\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
@@ -45,8 +40,6 @@ D:\Image encryption\Image encryption\bin\Debug\net8.0\Mono.TextTemplating.dll
 D:\Image encryption\Image encryption\bin\Debug\net8.0\Serilog.dll
 D:\Image encryption\Image encryption\bin\Debug\net8.0\Serilog.Sinks.Console.dll
 D:\Image encryption\Image encryption\bin\Debug\net8.0\Serilog.Sinks.File.dll
-D:\Image encryption\Image encryption\bin\Debug\net8.0\Serilog.Sinks.MSSqlServer.dll
-D:\Image encryption\Image encryption\bin\Debug\net8.0\Serilog.Sinks.PeriodicBatching.dll
 D:\Image encryption\Image encryption\bin\Debug\net8.0\SixLabors.ImageSharp.dll
 D:\Image encryption\Image encryption\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\Image encryption\Image encryption\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
@@ -60,13 +53,11 @@ D:\Image encryption\Image encryption\bin\Debug\net8.0\System.Composition.TypedPa
 D:\Image encryption\Image encryption\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
 D:\Image encryption\Image encryption\bin\Debug\net8.0\System.Drawing.Common.dll
 D:\Image encryption\Image encryption\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
-D:\Image encryption\Image encryption\bin\Debug\net8.0\System.Linq.Async.dll
 D:\Image encryption\Image encryption\bin\Debug\net8.0\System.Memory.Data.dll
 D:\Image encryption\Image encryption\bin\Debug\net8.0\System.Runtime.Caching.dll
 D:\Image encryption\Image encryption\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
 D:\Image encryption\Image encryption\bin\Debug\net8.0\System.Security.Permissions.dll
 D:\Image encryption\Image encryption\bin\Debug\net8.0\System.Windows.Extensions.dll
-D:\Image encryption\Image encryption\bin\Debug\net8.0\YmChat.dll
 D:\Image encryption\Image encryption\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
 D:\Image encryption\Image encryption\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
 D:\Image encryption\Image encryption\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
@@ -142,8 +133,6 @@ D:\Image encryption\Image encryption\obj\Debug\net8.0\Image encryption.Generated
 D:\Image encryption\Image encryption\obj\Debug\net8.0\Image encryption.AssemblyInfoInputs.cache
 D:\Image encryption\Image encryption\obj\Debug\net8.0\Image encryption.AssemblyInfo.cs
 D:\Image encryption\Image encryption\obj\Debug\net8.0\Image encryption.csproj.CoreCompileInputs.cache
-D:\Image encryption\Image encryption\obj\Debug\net8.0\Image encryption.MvcApplicationPartsAssemblyInfo.cs
-D:\Image encryption\Image encryption\obj\Debug\net8.0\Image encryption.MvcApplicationPartsAssemblyInfo.cache
 D:\Image encryption\Image encryption\obj\Debug\net8.0\Image encryption.sourcelink.json
 D:\Image encryption\Image encryption\obj\Debug\net8.0\staticwebassets.build.json
 D:\Image encryption\Image encryption\obj\Debug\net8.0\staticwebassets.development.json

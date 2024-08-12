@@ -94,7 +94,6 @@ builder.Services.AddScoped<IUserData, UserData>();
    builder.Services.AddScoped<IPictureData, PictureData>();
        builder.Services.AddScoped<IPictureService, PictureService>();
       builder.Services.AddScoped<IUserService, UserService>();// Add JWT Authentication
-builder.Services.AddSingleton<IImageViewerService, ImageViewerService>();
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;

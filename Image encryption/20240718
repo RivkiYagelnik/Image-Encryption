@@ -1,0 +1,70 @@
+2024-07-18 02:50:30.994 +03:00 [INF] action: GetAllUsers
+2024-07-18 02:50:31.020 +03:00 [INF] from new middleware
+2024-07-18 02:50:31.049 +03:00 [ERR] An error occurred while processing the request.
+System.InvalidOperationException: Unable to resolve service for type 'BL.Interface.IUserService' while attempting to activate 'Image_Encryption.Controllers.UserController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Image_encryption.middleWare.Action_documentation.InvokeAsync(HttpContext httpContext) in D:\Image encryption\Image encryption\middleWare\Action_documentation.cs:line 20
+2024-07-18 03:03:18.394 +03:00 [INF] action: GetAllUsers
+2024-07-18 03:03:18.452 +03:00 [INF] from new middleware
+2024-07-18 03:03:18.726 +03:00 [ERR] message: Unable to resolve service for type 'BL.Interface.IUserService' while attempting to activate 'Image_Encryption.Controllers.UserController'.
+2024-07-18 03:04:45.432 +03:00 [INF] action: AddUser
+2024-07-18 03:04:45.436 +03:00 [INF] from new middleware
+2024-07-18 03:04:45.529 +03:00 [ERR] message: Unable to resolve service for type 'BL.Interface.IUserService' while attempting to activate 'Image_Encryption.Controllers.UserController'.
+2024-07-18 03:05:15.622 +03:00 [INF] action: UpdateUser
+2024-07-18 03:05:15.622 +03:00 [INF] from new middleware
+2024-07-18 03:05:15.743 +03:00 [ERR] message: Unable to resolve service for type 'BL.Interface.IUserService' while attempting to activate 'Image_Encryption.Controllers.UserController'.
+2024-07-18 03:05:38.768 +03:00 [INF] action: GetUserById
+2024-07-18 03:05:38.770 +03:00 [INF] from new middleware
+2024-07-18 03:05:38.853 +03:00 [ERR] message: Unable to resolve service for type 'BL.Interface.IUserService' while attempting to activate 'Image_Encryption.Controllers.UserController'.
+2024-07-18 03:06:02.205 +03:00 [INF] action: GetAllUsers
+2024-07-18 03:06:02.206 +03:00 [INF] from new middleware
+2024-07-18 03:06:02.270 +03:00 [ERR] message: Unable to resolve service for type 'BL.Interface.IUserService' while attempting to activate 'Image_Encryption.Controllers.UserController'.
+2024-07-18 03:11:12.392 +03:00 [INF] action: 
+2024-07-18 03:11:12.411 +03:00 [INF] from new middleware
+2024-07-18 03:11:12.777 +03:00 [INF] action: 
+2024-07-18 03:11:12.777 +03:00 [INF] from new middleware
+2024-07-18 03:11:21.989 +03:00 [INF] action: 
+2024-07-18 03:11:21.989 +03:00 [INF] from new middleware
+2024-07-18 03:11:22.953 +03:00 [INF] action: 
+2024-07-18 03:11:22.953 +03:00 [INF] from new middleware
+2024-07-18 03:11:36.338 +03:00 [INF] action: 
+2024-07-18 03:11:36.338 +03:00 [INF] from new middleware
+2024-07-18 03:11:52.427 +03:00 [INF] action: 
+2024-07-18 03:11:52.427 +03:00 [INF] from new middleware
+2024-07-18 03:12:29.802 +03:00 [INF] action: 
+2024-07-18 03:12:29.802 +03:00 [INF] from new middleware
+2024-07-18 03:12:29.823 +03:00 [INF] action: 
+2024-07-18 03:12:29.823 +03:00 [INF] from new middleware
+2024-07-18 03:12:31.003 +03:00 [INF] action: 
+2024-07-18 03:12:31.004 +03:00 [INF] from new middleware
+2024-07-18 03:12:31.024 +03:00 [INF] action: 
+2024-07-18 03:12:31.025 +03:00 [INF] from new middleware
+2024-07-18 03:12:32.361 +03:00 [INF] action: 
+2024-07-18 03:12:32.361 +03:00 [INF] from new middleware
+2024-07-18 03:12:32.684 +03:00 [INF] action: 
+2024-07-18 03:12:32.684 +03:00 [INF] from new middleware
+2024-07-18 03:12:37.567 +03:00 [INF] action: 
+2024-07-18 03:12:37.567 +03:00 [INF] from new middleware
+2024-07-18 03:12:37.590 +03:00 [INF] action: 
+2024-07-18 03:12:37.590 +03:00 [INF] from new middleware
+2024-07-18 03:12:43.840 +03:00 [INF] action: 
+2024-07-18 03:12:43.841 +03:00 [INF] from new middleware
+2024-07-18 03:12:43.857 +03:00 [INF] action: 
+2024-07-18 03:12:43.857 +03:00 [INF] from new middleware
+2024-07-18 03:13:09.754 +03:00 [INF] action: 
+2024-07-18 03:13:09.754 +03:00 [INF] from new middleware
+2024-07-18 03:13:36.110 +03:00 [INF] action: AddUser
+2024-07-18 03:13:36.110 +03:00 [INF] from new middleware
+2024-07-18 03:13:36.338 +03:00 [ERR] message: Unable to resolve service for type 'BL.Interface.IUserService' while attempting to activate 'Image_Encryption.Controllers.UserController'.
+2024-07-18 03:13:39.456 +03:00 [INF] action: AddUser
+2024-07-18 03:13:39.456 +03:00 [INF] from new middleware
+2024-07-18 03:13:39.524 +03:00 [ERR] message: Unable to resolve service for type 'BL.Interface.IUserService' while attempting to activate 'Image_Encryption.Controllers.UserController'.
